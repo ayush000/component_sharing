@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+// Normal
+// import MouseMove from './normal/MouseMove';
+// import Cat from './normal/Cat';
+
+// Mixins
+// import ShowPosition from './mixins/MouseMove'
+// import Cat from './mixins/Cat'
+
+// HOC
+// import MouseMove from './hoc/MouseMove'
+// import Cat from './hoc/Cat'
+
+// Render props
+import MouseMove from './render_props/MouseMove'
+import Cat from './render_props/Cat'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <MouseMove />
       </div>
     );
   }
