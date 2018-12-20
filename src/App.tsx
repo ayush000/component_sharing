@@ -12,14 +12,18 @@ import React, { Component } from 'react';
 // import Cat from './hoc/Cat'
 
 // Render props
-import MouseMove from './render_props/MouseMove'
-import Cat from './render_props/Cat'
+// import MouseMove from './render_props/MouseMove'
+// import Cat from './render_props/Cat'
+
+// Hooks
+// import MouseMove from './hooks/MouseMove'
+import Cat from './hooks/Cat'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <MouseMove />
+        <Cat />
       </div>
     );
   }
