@@ -1,4 +1,4 @@
-# Slides [here](https://helpshift.atlassian.net/wiki/spaces/FRON/pages/1346175120/Using+a+Reflux+store+in+Moby)
+# Slides [here](https://app.ludus.one/a1736beb-375c-4228-925e-43d6bd175091#1)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
